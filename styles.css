@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+:root{
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+.container{
+    margin:0;
+}
+.content{
+    padding: 10px 5px 5px 5px;
+    display: flex;
+    gap:10px;
+}
+hr{
+    border-color: rgb(152,152,152,0.5);
+}
+/* Header */
+.header{
+    height:10vh;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #212121;
+}
+/* .logo{
+    height:10px;
+} */
+.hamburger{
+    padding: 7px;
+}
+.start{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.input{
+    width:78%;
+    border-radius: 15px 0 0 15px;
+    background-color: black;
+    border: 1px solid #272727;
+    height: 45px;
+    padding: 12px 5px 5px 25px;
+    align-self: center;
+}
+.input:focus{
+    outline: none;
+}
+.search-icon{
+    width: 40px;
+    height:40px;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 0 25px 25px 0;
+}
+.header-icons{
+    display: flex;
+    width:10%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ********** */
+/* Left part */
+.left{
+    position: sticky;
+    border-radius:10px 10px 0 0;
+    background-color: #212121;
+    top:12vh;
+    width:25vw;
+    height: 90vh;
+    padding:10px;
+    overflow: auto;
+}
+
+/* Style for both left container scrollbar and page scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+/* Style for the track of both scrollbars */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Make the scrollbar track transparent */
+}
+/* Style for the thumb of both scrollbars */
+::-webkit-scrollbar-thumb {
+    background-color: #383838; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Round the corners of the scrollbar thumb */
+    min-height: 60px;
+}
+/* Style for the button of the page scrollbar */
+::-webkit-scrollbar-button {
+    background-color: white; /* Make the arrows red */
+}
+.left::-webkit-scrollbar-button {
+    background-color: transparent; /* Make the arrows red */
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.home>div,.you>div,.subscriptions>div,.explore>div,.more>div,.settings>div{
+    padding:10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.home>div:hover,.you>div:hover,.subscriptions>div:hover,.explore>div:hover,.more>div:hover,.settings>div:hover{
+    background-color: #272727;
+}
+.left-footer{
+    color:#9ea2a6;
+    padding: 5px;
+    font-size:14px;
+    line-height: 30px;
+}
+.details{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.videoDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50vh; 
+    gap: 20px;
+}
+/*  Video div */
+.thumbnailImg{
+    object-fit: contain;
+    border-radius: 15px;
+    width:100%;
+    height:225px;
+    object-fit: cover;
+}
+p{
+    padding: 5px;
+}
+.titleText{
+    font-weight: 500;
+}
+.channelName{
+    color: rgb(152,152,152);
+}
+.time{
+    color: rgb(152,152,152);
+}
+.video{
+    border-radius: 15px;
+}
+.video:hover{
+    background-color:#272727;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+.account{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile>img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.titleText{
+    padding: 5px;
+}
