@@ -48,26 +48,27 @@ hr{
 .search-bar{
     display: flex;
     align-items: center;
-    width: 60%;
+    flex: 4;
 }
 .input{
-    width:78%;
+    width: 75%;
+    color: white;
     border-radius: 15px 0 0 15px;
     background-color: black;
     border: 1px solid #272727;
-    height: 45px;
-    padding: 12px 5px 5px 25px;
+    height: 90%;
+    padding: 5px 10px;
     align-self: center;
 }
 .input:focus{
     outline: none;
 }
 .search-icon{
-    width: 40px;
-    height:40px;
+    width: 35px;
+    height:85%;
     background-color: #272727;
     padding: 10px;
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 20px 20px 0;
 }
 .header-icons{
     display: flex;

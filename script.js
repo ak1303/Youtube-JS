@@ -21,7 +21,7 @@ async function fetchVideo(searchQuery, maxResult) {
     console.error(error);
   }
 }
-fetchVideo("react js  kg coding", 50);
+fetchVideo("", 50);
 // fetchVideo("latest videos", 50);
 // fetchVideo("latest videos", 50);
 
@@ -67,6 +67,7 @@ function getDate(videoDate) {
   
 }
 function renderVideos(data) {
+  videosDiv.innerHTML='';
   const { items } = data; //array of video object
   console.log(items);
   items.forEach(async (item) => {
@@ -225,8 +226,11 @@ function formatDuration(duration){//PT1M19S
 }
 
 let searchInput = document.querySelector(".input");
-searchInput.addEventListener("click", () => {
-  if (searchInput.textContent === "Search...") searchInput.textContent = "";
+searchInput.addEventListener("change", (e) => {
+    e.preventDefault();
+    let value = searchInput.value;
+    console.log("search clicked",value)
+    fetchVideo(value, 50);
 });
 function addEventListener(video,videoId){
   video.addEventListener("click", (e) => {

@@ -275,6 +275,7 @@ async function fetchLogo(channelId) {
 }
 
 function renderVideos(data) {
+  videosDiv.innerHTML='';
   const { items } = data; //array of video object
   // console.log(items);
   items.forEach(async (item) => {
@@ -404,8 +405,11 @@ function formatDuration(duration){//PT1M19S
 }
 
 let searchInput = document.querySelector(".input");
-searchInput.addEventListener("click", () => {
-  if (searchInput.textContent === "Search...") searchInput.textContent = "";
+searchInput.addEventListener("change", (e) => {
+    e.preventDefault();
+    let value = searchInput.value;
+    console.log("search clicked",value)
+    fetchVideo(value, 50);
 });
 function addEventListener(video,videoId){
   video.addEventListener("click", (e) => {
