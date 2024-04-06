@@ -1,0 +1,12 @@
+//http://127.0.0.1:5500/videoPlayer.html?videoId=UDjvLknqNY8
+// statistics -> viewsCount,likeCount,commentCOunt
+// commentThread belongs to thread created for top level comment and its nested replies
+// comment thread has top level comment, copy its id and get api of comment with parentId={topLevelid} to get all replies
+
+// for toplevel comments
+//https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&parentId={topLevelCommentId}&maxResults={maxResults}&key={YOUR_API_KEY}
+// for comments and their replies
+//https://www.googleapis.com/youtube/v3/commentThreads?part=snippet,replies&parentId={topLevelCommentId}&maxResults={maxResults}&key={YOUR_API_KEY}
+// for particular comment
+//https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key={key}&textFormat=plainText&videoId={id}&maxResults=100&order=relevance
+const API_KEY = "AIzaSyAHByvpyunb-S_hjrXgDuQ_-eqUvdMs5Js";

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="videoPlayer.css" />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+      <div class="header">
+          <div class="start">
+              <div class="hamburger">
+                  <svg  width="22px" height="14px" xmlns="http://www.w3.org/2000/svg"><title>Hamburger Menu</title><g fill-rule="nonzero" stroke="white" stroke-width="1.3" fill="none" stroke-linecap="round"><path d="M1.611 1h20.614M1.611 7h20.614M1.611 13h20.614"></path></g></svg>
+               </div>
+               <div class="logo" style="width: 30%;"><svg xmlns="http://www.w3.org/2000/svg" id="yt-logo-updated-svg_yt6" class="external-icon" viewBox="0 0 90 20" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
+                <img src="/images/logo.svg" alt="">
+              </svg>
+            </div>
+          </div>
+          <div class="search-bar">
+              <input class="input" type="text" placeholder="Search..." />
+              <img class="search-icon" src="./images/search.svg" alt="">
+          </div>
+          <div class="header-icons">
+              <div style="width: 20%; height: 100%; display: block; fill: currentcolor;"><svg fill="white" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="30" viewBox="0 0 30 30" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"></path></svg></div>
+              <div class="account" style="color:white; background-color:purple">A</div>
+          </div>
+      </div>
+      <div class="container">
+        <div class="left">
+          <div id="video-player">Video Player div</div>
+          <div class="stats">
+            <div class="title">Video title</div>
+            <div class="btns">
+              <div class="channel">
+                <div class="profile">Logo</div>
+                <div class="channelName">
+                  <div class="name">channelName</div>
+                  <div class="subs">5K Subscriber</div>
+                </div>
+              </div>
+              <div class="join">Join btn</div>
+              <div class="sub">Subscribe btn</div>
+              <div class="likedislike">
+                <div class="like">1K like</div>
+                <div class="dislike">dislike</div>
+              </div>
+              <div class="share">Share</div>
+              <div class="download">Download</div>
+            </div>
+            <div class="description">description</div>
+            <div class="commetCount">804 Comments</div>
+          </div>
+          <hr style="border-color: #383838;border-style: solid;border-width: 2px 0">
+          <div class="comments">
+              <!-- Main comment -->
+            <!-- <div class="commentBox">
+              <div class="profile"><img src="./images/like.png" alt=""></div>
+              <div class="comment">
+                <div class="name">@channelId 2weeks ago</div>
+                <div class="commetText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus, hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos harum ducimus cum minus facere incidunt amet aspernatur sit atque, aliquam alias. Sapiente nesciunt reiciendis iusto ea enim iste numquam repellat esse nam iure voluptatem quos repudiandae accusantium magnam, sint deleniti a porro quia dolorem at saepe quasi! Tenetur, repellat velit!
+                </div>
+                <div class="likedislike">
+                    <div class="like">1K like</div>
+                    <div class="dislike">dislike</div>
+                    <div class="replyText">Reply</div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="right">
+          <div class="videos">
+              <!-- <div class="video">
+                  <div class="thumbnail">
+                      <img src="" alt="" class="thumbnailImg">
+                      <div class="duration"></div>
+                  </div>
+                  <div class="details">
+                      <div class="profile"></div>
+                      <div class="videoDetails">
+                          <p class="titleText">title</p>
+                          <p class="channelName">channelName</p>
+                          <p class="time">1 hr ago</p>
+                      </div>
+                  </div>
+              </div> -->
+          </div>
+        </div>
+      <!-- </div> -->
+
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="module" src="videoPlayer.js"></script>
+  </body>
+</html>

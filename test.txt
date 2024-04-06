@@ -1,0 +1,76 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "QrtPhVRPv3-vEcBJ5sPe5JPQWNA",
+  "items": [
+{
+      "kind": "youtube#video",
+      "etag": "aLygzA-CjU_MLc6o_uefUdPtbV4",
+      "id": "eILUmCJhl64",
+      "snippet": {
+        "publishedAt": "2023-11-04T02:25:41Z",
+        "channelId": "UC7uzuZJIYzcxV9JJ1yAtHHg",
+        "title": "🚀🔥 React & Redux Complete Course (2024) with Projects | Notes | Free Certification",
+        "description": "- GitHub Code Repo: https://github.com/KG-Coding-with-Prashant-Sir/React_Complete_YouTube\n- Completion Certificate: \nhttps://www.kgcoding.in/courses/React-and-Redux-Youtube-Course\n\n👉  Free Notes for all Courses: 👇\nhttps://www.kgcoding.in/products\n\n👉  Our Prime Placement Courses: 👇\nDSA: https://www.kgcoding.in/courses/DSA-using-Java\n\n👉  KG Coding Platform: 👇\nWebsite: https://www.kgcoding.in\nApp: https://play.google.com/store/apps/details?id=com.kgcoding.learners\n\n👉  Social Media: 👇\n📝  Telegram: https://t.me/kg_coding\n📱 WhatsApp: https://whatsapp.com/channel/0029VaCmRnF7tkj3fAzbtp3Y\n🧬 LinkedIn: https://www.linkedin.com/company/kgcoding\n\n👉 Our One Shot videos 👇:\n- Complete HTML for Beginner: https://www.youtube.com/watch?v=rklidcZ-aLU\n- Complete CSS for Beginner: https://www.youtube.com/watch?v=OpWjt_wbV4E\n- Complete JavaScript for Beginner: https://youtu.be/cpoXLj24BDY\n- Complete React and Redux for Beginner: https://youtu.be/eILUmCJhl64\n- Git and Github One Shot Video: https://www.youtube.com/watch?v=zGq7T9gZH2k\n- Java and OOPs One Shot Video: https://www.youtube.com/watch?v=LepLT82RtxA\n\nContact Us: 👇\n🌎 Whatsapp on: https://wa.me/918920719928\n📞Call on: +91-8000121313, +91-9650184667\n💻 Email: contact@kgcoding.in\n \n👉  Our Other YouTube Channels For More Preparation 👇\n🆕  KnowledgeGate: https://www.youtube.com/@KNOWLEDGEGATE_kg\n🆕  KnowledgeGate Placement Prep: http://tiny.cc/kg_placement_prep_yt\n🆕  SanchitSocket: http://tiny.cc/sanchitsocket_yt\n\n#knowledgegate #KGCoding #PrashantSir\n*******************************************************\nContent in this video:\n00:00 Introduction\n02:30 Ch-1-6: Introduction { React and Components}\n34:10 Ch-7-9: Create React App {IDE, Using Vite, Project Structure}\n1:08:01 Ch-10-16: Creating React Components {File Extensions, Class vs Function Components, JSX, Dynamic and Reusable components}\n1:54:21 Ch-17: Introducing Bootstrap\n2:12:31 Project: Todo App Version 1\n2:49:51 Project: Bharat Clock Version 1\n3:03:24 Ch-18-22: React Level 2 {Fragments, Rendering lists using Map Method, Conditional Rendering, Passing Data via Props, CSS Modules}\n4:07:54 Project Todo App Version 2\n4:26:35 Project: Calculator Version 1\n4:50:45 Ch-23-25: React Level 3 {Passing Components as Children, Handling Events, Passing Functions via Props}\n5:38:45 Ch-26-27: State Management {useState Hook to manage Component State, State vs Props}\n6:22:20 Project: Calculator Version 2\n6:41:34 Project: Todo App Version 3\n7:23:50 Ch-28-34: React Level 3 {React-Icon Library, Inspecting with React Dev Tools, How React Works, React vs Angular vs VueJs, Forms in React, useRef Hook, Spread operator and Functional updates}\n8:38:30 Ch-35-36: Advanced State Management {Context API, useReducer Hook}\n9:42:40 Project: Social Media Version 1\n11:41:22 Ch-37-42: React Level 4 {Backend Dummy API, Data Fetching using Fetch function, useEffect Hook, Handling loading State, useEffect Hook Cleanup, Advanced useEffect }\n12:54:45 Project: Bharat Clock Version 2\n13:09:05 Ch-43-45: More Hooks {useCallback Hook, useMemo Hook, Custom Hooks}\n13:28:40 Ch-46: Submitting data with Fetch\n14:00:10 Ch-47-51: React Router {Router Layout routes, Router Links and Navigation, Data fetching using loader, Submitting data using action}\n14:55:23 Ch-52-56: Redux {Introduction, React-Context vs Redux, How Redux Works, Working with Redux, React with Redux}\n16:35:25 Ch-57-58: Redux ToolKit {Need, Working with Toolkit}\n17:19:10 Major Project Myntra Clone using Real Backend",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eILUmCJhl64/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eILUmCJhl64/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eILUmCJhl64/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eILUmCJhl64/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eILUmCJhl64/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KG Coding by Prashant Sir",
+        "tags": [
+          "kgcoding",
+          "react",
+          "react js",
+          "react js full course",
+          "react js tutorial",
+          "react js project",
+          "react js code with harry",
+          "redux tutorial",
+          "react redux tutorial",
+          "react redux",
+          "react and redux project",
+          "react-redux shopping cart",
+          "react redux one shot",
+          "Ultimate React & Redux Tutorial",
+          "complete react redux tutorial",
+          "redux tutorial in hindi",
+          "react and redux tutorial for beginners",
+          "react and redux by prashant sir"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "🚀🔥 React & Redux Complete Course (2024) with Projects | Notes | Free Certification",
+          "description": "- GitHub Code Repo: https://github.com/KG-Coding-with-Prashant-Sir/React_Complete_YouTube\n- Completion Certificate: \nhttps://www.kgcoding.in/courses/React-and-Redux-Youtube-Course\n\n👉  Free Notes for all Courses: 👇\nhttps://www.kgcoding.in/products\n\n👉  Our Prime Placement Courses: 👇\nDSA: https://www.kgcoding.in/courses/DSA-using-Java\n\n👉  KG Coding Platform: 👇\nWebsite: https://www.kgcoding.in\nApp: https://play.google.com/store/apps/details?id=com.kgcoding.learners\n\n👉  Social Media: 👇\n📝  Telegram: https://t.me/kg_coding\n📱 WhatsApp: https://whatsapp.com/channel/0029VaCmRnF7tkj3fAzbtp3Y\n🧬 LinkedIn: https://www.linkedin.com/company/kgcoding\n\n👉 Our One Shot videos 👇:\n- Complete HTML for Beginner: https://www.youtube.com/watch?v=rklidcZ-aLU\n- Complete CSS for Beginner: https://www.youtube.com/watch?v=OpWjt_wbV4E\n- Complete JavaScript for Beginner: https://youtu.be/cpoXLj24BDY\n- Complete React and Redux for Beginner: https://youtu.be/eILUmCJhl64\n- Git and Github One Shot Video: https://www.youtube.com/watch?v=zGq7T9gZH2k\n- Java and OOPs One Shot Video: https://www.youtube.com/watch?v=LepLT82RtxA\n\nContact Us: 👇\n🌎 Whatsapp on: https://wa.me/918920719928\n📞Call on: +91-8000121313, +91-9650184667\n💻 Email: contact@kgcoding.in\n \n👉  Our Other YouTube Channels For More Preparation 👇\n🆕  KnowledgeGate: https://www.youtube.com/@KNOWLEDGEGATE_kg\n🆕  KnowledgeGate Placement Prep: http://tiny.cc/kg_placement_prep_yt\n🆕  SanchitSocket: http://tiny.cc/sanchitsocket_yt\n\n#knowledgegate #KGCoding #PrashantSir\n*******************************************************\nContent in this video:\n00:00 Introduction\n02:30 Ch-1-6: Introduction { React and Components}\n34:10 Ch-7-9: Create React App {IDE, Using Vite, Project Structure}\n1:08:01 Ch-10-16: Creating React Components {File Extensions, Class vs Function Components, JSX, Dynamic and Reusable components}\n1:54:21 Ch-17: Introducing Bootstrap\n2:12:31 Project: Todo App Version 1\n2:49:51 Project: Bharat Clock Version 1\n3:03:24 Ch-18-22: React Level 2 {Fragments, Rendering lists using Map Method, Conditional Rendering, Passing Data via Props, CSS Modules}\n4:07:54 Project Todo App Version 2\n4:26:35 Project: Calculator Version 1\n4:50:45 Ch-23-25: React Level 3 {Passing Components as Children, Handling Events, Passing Functions via Props}\n5:38:45 Ch-26-27: State Management {useState Hook to manage Component State, State vs Props}\n6:22:20 Project: Calculator Version 2\n6:41:34 Project: Todo App Version 3\n7:23:50 Ch-28-34: React Level 3 {React-Icon Library, Inspecting with React Dev Tools, How React Works, React vs Angular vs VueJs, Forms in React, useRef Hook, Spread operator and Functional updates}\n8:38:30 Ch-35-36: Advanced State Management {Context API, useReducer Hook}\n9:42:40 Project: Social Media Version 1\n11:41:22 Ch-37-42: React Level 4 {Backend Dummy API, Data Fetching using Fetch function, useEffect Hook, Handling loading State, useEffect Hook Cleanup, Advanced useEffect }\n12:54:45 Project: Bharat Clock Version 2\n13:09:05 Ch-43-45: More Hooks {useCallback Hook, useMemo Hook, Custom Hooks}\n13:28:40 Ch-46: Submitting data with Fetch\n14:00:10 Ch-47-51: React Router {Router Layout routes, Router Links and Navigation, Data fetching using loader, Submitting data using action}\n14:55:23 Ch-52-56: Redux {Introduction, React-Context vs Redux, How Redux Works, Working with Redux, React with Redux}\n16:35:25 Ch-57-58: Redux ToolKit {Need, Working with Toolkit}\n17:19:10 Major Project Myntra Clone using Real Backend"
+        },
+        "defaultAudioLanguage": "hi"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
