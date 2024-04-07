@@ -416,7 +416,6 @@ function addEventListener(video,videoId){
   video.addEventListener("click", (e) => {
     console.log(e.target);
     console.log(videoId);
-    const timestamp = new Date().getTime();
-    window.location.replace(`videoPlayer.html?videoId=${videoId}&id=${timestamp}`);
+    window.location.href = `videoPlayer.html?videoId=${videoId}`;
   });
 }
