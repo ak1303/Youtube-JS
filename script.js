@@ -2,7 +2,9 @@
 const baseUrl = "https://www.googleapis.com/youtube/v3";
 // const API_KEY = "AIzaSyAHByvpyunb-S_hjrXgDuQ_-eqUvdMs5Js";
 // const API_KEY ="AIzaSyBzneRd6O3nvis1s8idCl1lpbRIAIn-Nko";
-const API_KEY = "AIzaSyDzJb_0sCY3wvUPlTLV44YkUUhG2aUhnUg";
+// "AIzaSyCu84T6TkQEWujC66c6-taGfS_YIxG--fs"   newApi Key
+// const API_KEY = "AIzaSyDzJb_0sCY3wvUPlTLV44YkUUhG2aUhnUg";
+const API_KEY="AIzaSyCu84T6TkQEWujC66c6-taGfS_YIxG--fs";
 
 async function fetchVideo(searchQuery, maxResult) {
   try {

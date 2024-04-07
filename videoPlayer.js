@@ -18,7 +18,8 @@ window.addEventListener("load", () => {
   }
 });
 // const API_KEY = "AIzaSyAHByvpyunb-S_hjrXgDuQ_-eqUvdMs5Js";
-const API_KEY = "AIzaSyDzJb_0sCY3wvUPlTLV44YkUUhG2aUhnUg";
+// const API_KEY = "AIzaSyDzJb_0sCY3wvUPlTLV44YkUUhG2aUhnUg";
+const API_KEY="AIzaSyCu84T6TkQEWujC66c6-taGfS_YIxG--fs";
 const baseUrl = "https://www.googleapis.com/youtube/v3";
 
 async function fetchSingleVideoStats() {
